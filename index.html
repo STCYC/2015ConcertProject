@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+<title>Concert Interaction Device</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="concert.css">
+<script type="text/javascript" src="color.js"></script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-60781105-3', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+<!--Design by YC.Steven-->
+
+</head>
+<body >
+
+  <div class="container1">
+    <h3>點擊按鈕色記你的音樂</h3>
+  </div>
+  
+  <div class="row"  style="height:40%">
+    <div class="col-sm-3">
+      <div  class="button_device_red" id="button_device_Red" onclick="changeColorRed();ga('send','event','click','Red')">
+        <div class="inner_text">熱情活力</div>
+      </div>
+    </div>
+    
+    <div class="col-sm-3">
+      <div  class="button_device_orange" id="button_device_Orange" onclick="changeColorOrange();ga('send','event','click','Orange')">
+        <div class="inner_text">愉悅浪漫</div>
+      </div>
+    </div>
+  
+    <div class="col-sm-3">
+      <div  class="button_device_blue" id="button_device_Blue" onclick="changeColorBlue();ga('send','event','click','Blue')">
+        <div class="inner_text">莊嚴悲愴</div>
+      </div>
+    </div>
+    
+    <div class="col-sm-3">
+      <div  class="button_device_green" id="button_device_Green" onclick="changeColorGreen();ga('send','event','click','Green')">
+        <div class="inner_text">優美平靜</div>
+      </div>
+    </div>
+    
+  </div>
+
+ <div class="footer" style="text-align:center;">
+    <p>D-School #1 Concert Project</p>
+    <p>Copyright © 2015 Designed by YC Steven.</p>
+  </div>
+
+
+</body>
+</html>
